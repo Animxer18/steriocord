@@ -150,7 +150,7 @@ newPicks().then((movies) => {
 
 const playBtn = (mov) => {
   return ` <span class="pplay">
-  <a href="https://www.2embed.to/embed/imdb/movie?id=${mov.imdb_id}" class="plabtn">
+  <a href="https://multiembed.mov/directstream.php?id=${mov.imdb_id}" class="plabtn">
   <ion-icon name="play-circle"></ion-icon>
 </a>
 
@@ -202,7 +202,7 @@ const currMov = (mov) => {
                 <div class="watch">
                 <ion-icon name="play-circle-outline"></ion-icon>
                     
-                        <a href="https://www.2embed.to/embed/imdb/movie?id=${
+                        <a href="https://multiembed.mov/directstream.php?video_id=" + imdb);
                           mov.imdb_id
                         }" class="watchme"><div>Watch Now</div></a>
 
